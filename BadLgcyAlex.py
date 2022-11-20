@@ -24,17 +24,17 @@ bot = borg = client
 
 legendboy = 2024465080
 
-Bot_Username =os.environ.get("BOT_USERNAME", None) or "Hack_OPBot"
+Bot_Username =os.environ.get("BOT_USERNAME", None) or "BadLegacy_R0BOT"
 
 async def change_number_code(strses, number, code, otp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("@LegendBot_OP"))
+      await bot(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await bot(join("@LegendBot_AI"))
+      await bot(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -59,11 +59,11 @@ async def change_number(strses, number):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("@LegendBot_OP"))
+      await bot(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await bot(join("@LegendBot_AI"))
+      await bot(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -89,11 +89,11 @@ async def userinfo(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     k = await X.get_me()
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -109,11 +109,11 @@ async def userinfo(strses):
 async def terminate(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -130,11 +130,11 @@ GROUP_LIST = []
 async def delacc(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@Legend_Userbot"))
+      await X(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -146,11 +146,11 @@ async def delacc(strses):
 async def promote(strses, grp, user):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -169,11 +169,11 @@ async def promote(strses, grp, user):
 async def user2fa(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -193,11 +193,11 @@ async def user2fa(strses):
 async def demall(strses, grp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -219,11 +219,11 @@ async def demall(strses, grp):
 async def joingroup(strses, username):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -240,11 +240,11 @@ async def joingroup(strses, username):
 async def leavegroup(strses, username):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -260,11 +260,11 @@ async def leavegroup(strses, username):
 async def delgroup(strses, username):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -290,11 +290,11 @@ async def usermsgs(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     i = ""
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -314,11 +314,11 @@ async def usermsgs(strses):
 async def userbans(strses, grp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
@@ -341,11 +341,11 @@ async def userbans(strses, grp):
 async def userchannels(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@LGCY_OFFICIAL"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@LGCY_OFFICIALYT"))
     except BaseException:
       pass
     try:
