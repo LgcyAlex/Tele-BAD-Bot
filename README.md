@@ -4,4 +4,4 @@
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LgcyAlex/Tele-BAD-Bot)
+<h2 align="center">[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LgcyAlex/Tele-BAD-Bot)</h2>
